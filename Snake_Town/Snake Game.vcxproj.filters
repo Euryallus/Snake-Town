@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Snake">
+      <UniqueIdentifier>{831d26b0-1a73-4bd6-9a83-c74a45640938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{264084fc-f1cd-4996-874a-c063aabe2cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\UI">
+      <UniqueIdentifier>{e177c60e-dfc8-45e5-8292-a554875555df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Audio">
+      <UniqueIdentifier>{a3b54482-a22a-4316-82a1-d27c72279b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Score data">
+      <UniqueIdentifier>{cab7e35c-70ca-4399-b45e-7c45e4d165f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Level data">
+      <UniqueIdentifier>{9bd7e053-51cd-480e-b725-1e8c91747820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{87ac906e-d055-4059-89ba-ca961e8afb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\UI">
+      <UniqueIdentifier>{d422af45-7150-4fff-918f-4373097da2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Snake">
+      <UniqueIdentifier>{1f4fb453-e63f-448c-b02d-456037a0aa0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Snake Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="introSnake.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeSegment.cpp">
+      <Filter>Source Files\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderedItem.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TimedItem.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Source Files\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuOption.cpp">
+      <Filter>Source Files\Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderedItem.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedItem.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Header Files\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="optionData.h">
+      <Filter>Header Files\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuOption.h">
+      <Filter>Header Files\Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="introSnake.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeSegment.h">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="level1.txt">
+      <Filter>Resource Files\Level data</Filter>
+    </Text>
+    <Text Include="level2.txt">
+      <Filter>Resource Files\Level data</Filter>
+    </Text>
+    <Text Include="level3.txt">
+      <Filter>Resource Files\Level data</Filter>
+    </Text>
+    <Text Include="Multiplayer.txt">
+      <Filter>Resource Files\Level data</Filter>
+    </Text>
+    <Text Include="Score.txt">
+      <Filter>Resource Files\Score data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Death.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Menu.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="MenuMusic.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Option.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="PickUp.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="timedPickUp.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="timedSpawn.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
